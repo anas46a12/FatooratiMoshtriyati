@@ -1,20 +1,10 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
+# فاتورة مشترياتي
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+تطبيق لحفظ وتنظيم فواتير المشتريات والضمانات في مكان واحد.
 
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-rootProject.name = "FatooratiMoshtriyati"
-
-include(":app")
+## المميزات
+- تصوير الفاتورة
+- حفظ بيانات المشتريات
+- البحث عن الفواتير
+- حفظ معلومات الضمان
+- التنبيه قبل انتهاء الضمان
